@@ -8,6 +8,7 @@
 
 int main(void) {
 
+//    MapT<string, string> otherMap;
     MapT<int,string> map;
 
     map.Add(95381, "Turlock");

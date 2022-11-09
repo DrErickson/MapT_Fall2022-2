@@ -15,6 +15,7 @@ template<class K, class T>
 class MapT {
 public:
     MapT();
+    ~MapT();
 
     void Add(K key, T value);
     void Remove(K key);
@@ -52,7 +53,7 @@ private:
     int currBucket;
 
 
-    int GetHashIndex(const K& key);
+    int GetHashIndex(const K& key);  // Hash function
 };
 
 
